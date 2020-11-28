@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
+}
+imgpic {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: hsl(185, 75%, 39%);
+}
+.carddiv {
+  height: 100vh;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(185, 75%, 39%);
+}
+.card {
+  width: 350px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  z-index: 1;
+}
+.topcard {
+  background: url("./images/bg-pattern-card.svg");
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 40%;
+}
+.bottomcard {
+  text-align: center;
+}
+.bottomcard img {
+  margin-top: -15%;
+  border-radius: 50%;
+  border: 5px solid white;
+  padding: 0;
+}
+.lastrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 25px;
+  margin-top: 35 px;
+  border-top: 1px solid rgb(212, 212, 212);
+}
+.bgsvg1 {
+  position: fixed;
+  top: -100%;
+  left: -25%;
+  overflow: hidden;
+}
+
+.bgsvg2 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+}
+.count {
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
+  font-size: 18px;
+}
+.lbl {
+  font-weight: 400;
+  font-size: 12px;
+  color: hsl(0, 0%, 59%);
+}
